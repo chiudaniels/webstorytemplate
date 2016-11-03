@@ -1,0 +1,14 @@
+<!DOCTYPE = html>
+<html>
+  <head>
+  </head>
+  
+  <body>
+    {{line}}
+    <br>
+    <form action="" method ="POST">
+      <input type="textbox" name="update" value="update" maxlength="150" style="height: 50px; width: 50px;" >
+    </form> 
+  </body>
+
+</html>
