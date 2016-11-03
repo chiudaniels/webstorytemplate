@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+<title> homepage </title>
+</head>
+
+<body>
+
+  <!--POST 1 -->
+  {% for i in stories}
+  <h1>{{i[title]}} </h1> 
+  <br>
+  <p>{{i[base_content]}}</p>
+  <br>
+  {% endfor %}
+
+</body>
