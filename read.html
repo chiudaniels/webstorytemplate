@@ -1,0 +1,19 @@
+<!DOCTYPE = html> 
+<html>
+	<head>
+		<title>Read story</title>
+	</head>
+
+	<body>
+		<h1> {{title}} </h1>
+		<p> {{story_base}} </p>
+		<br>
+		
+		<p>
+		{%for i in story%}
+			{{i}}
+		{%endfor%}
+		</p>
+		
+	</body>
+</html>
